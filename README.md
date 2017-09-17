@@ -1,5 +1,6 @@
 # UCSD CSE 124
-# George Porter <gmporter@cs.ucsd.edu>
+
+George Porter (gmporter@cs.ucsd.edu)
 
 ## Demo code for the protocols lecture
 
