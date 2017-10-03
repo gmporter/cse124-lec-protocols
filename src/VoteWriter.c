@@ -43,6 +43,8 @@ int main(int argc, char *argv[]) {
   // Frame and write
   if (PutMsg(outbuf, reqSize, str) < 0)
     DieWithSystemMessage("PutMsg() failed");
+  if (PutMsg(outbuf, reqSize, str) < 0)
+    DieWithSystemMessage("PutMsg() failed");
 
   // Close the stream
   fclose(str);
